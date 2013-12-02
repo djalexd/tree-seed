@@ -199,8 +199,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:tree-seed.git</connection>
-        <developerConnection>scm:git:git@github.com:tree-seed.git</developerConnection>
+        <connection>scm:git:git@github.com:djalexd/tree-seed.git</connection>
+        <developerConnection>scm:git:git@github.com:djalexd/tree-seed.git</developerConnection>
         <url>https://github.com/djalexd/tree-seed</url>
     </scm>
 
