@@ -13,12 +13,12 @@ supported for source/target 1.3?!
 
 Well, seek no more! Like you, I've had enough copy-paste and prefer a <parent> tag
 that sets up the basic, *decent* dependencies:
-* Google guava
-* Joda time
-* slf4j api
-* slf4j wrappers (jcl, jul)
-* junit (scope = test)
-* fest-assert (scope = test)
+* Google guava 14 (lots of goodiez - immutable collections, predicates, filters).
+* Joda time (immutable date time, sane API).
+* slf4j api.
+* slf4j wrappers (jcl, jul).
+* junit (scope = test).
+* fest-assert (scope = test).
 * mockito (scope = test).
 
 That all to it, enjoy. Forks, issues and PRs are welcome.
