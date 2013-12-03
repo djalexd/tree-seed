@@ -192,6 +192,12 @@
                 <version>2.1</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <!-- This is specifically placed here in order to avoid deployment
+                         (distributionManagement tag is missing). Remove it in order for
+                         plugin to also deploy when version is released. -->
+                    <goals>
+                        install
+                    </goals>
                 </configuration>
             </plugin>
 
